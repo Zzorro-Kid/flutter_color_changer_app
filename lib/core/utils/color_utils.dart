@@ -1,7 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
-abstract final class ColorUtils {
+class ColorUtils {
   static final Random _random = Random();
 
   static Color generateRandomColor() {
